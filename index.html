@@ -1,264 +1,481 @@
 <!DOCTYPE html>
+
 <html>
+
   <head>
+
     <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+
     <title>University Website Design</title>
+
     <link rel="icon" type="image/x-icon" href="./pics/logo.ico" />
+
     <link rel="stylesheet" href="style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
+
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300;1,700&display=swap"
+
       rel="stylesheet"
+
     />
+
     <link
+
       rel="stylesheet"
+
       href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+
       integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+
       crossorigin="anonymous"
+
     />
+
     <script
+
       src="https://kit.fontawesome.com/892933c6a6.js"
+
       crossorigin="anonymous"
+
     ></script>
+
   </head>
+
   <body>
+
     <section class="header">
+
       <nav>
+
         <a href="./index.html"><img src="pics/logo.png" /></a>
+
         <div class="nav-links" id="navLinks">
+
           <i class="fa fa-times" onclick="hideMenue()"></i>
+
           <ul>
+
             <li><a href="index.html">HOME</a></li>
+
             <li><a href="about.html">ABOUT</a></li>
+
             <li><a href="course.html">COURSE</a></li>
+
             <li><a href="blog.html">BLOG</a></li>
+
             <li><a href="contact.html">CONTACT</a></li>
+
           </ul>
+
         </div>
+
         <i class="fa fa-bars" onclick="showMenue()"></i>
+
       </nav>
+
       <div class="text-box">
-        <h1>World's Richest University</h1>
+
+        <h1>World's Best University</h1>
+
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae,
-          inventore laborum! Quos repudiandae adipisci a.
+
+          We aim at providing professional teaching and discipline for our student to attain high standard in the society 
+
         </p>
+
         <a href="about.html" class="hero-btn"><i>Visit Us To Know More</i></a>
+
       </div>
+
     </section>
+
+
 
     <!----Course----->
+
     <section class="course">
+
       <h1>Courses we offer</h1>
+
       <p>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt
+
+        We offer high demand courses in the tech industries 
+
       </p>
+
       <div class="row">
+
         <div class="course-col">
-          <h3>Intermediate</h3>
+
+          <h3>Web Design</h3>
+
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt "Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt"Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt
+
+            We offer facilities and teachings that will make you become a professional web developer, Give you resources and methods to find high paying jobs and clients.
+
           </p>
+
         </div>
+
         <div class="course-col">
-          <h3>Degree</h3>
+
+          <h3>Web Development</h3>
+
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt "Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt"Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt
+
+            We offer facilities and teachings that will make you become a professional web developer, Give you resources and methods to find high paying jobs and clients.
+
           </p>
+
         </div>
+
         <div class="course-col">
-          <h3>Post Graduation</h3>
+
+          <h3>App Development</h3>
+
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt "Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt"Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt
+
+            We offer facilities and teachings that will make you become a professional App development, Give you resources and methods to find high paying jobs and clients.
+
           </p>
+
         </div>
+
       </div>
+
     </section>
+
     <!----campus---->
 
+
+
     <section class="campus">
+
       <h1>Our Campus</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+
+      <p>We have three branches which are located at; london,new york and Washington </p>
+
       <div class="row">
+
         <div class="campus-col">
+
           <img src="pics/london.jpg" />
+
           <div class="layer">
+
             <h3>LONDON</h3>
+
           </div>
+
         </div>
+
         <div class="campus-col">
+
           <img src="pics/newyork.jpg" />
+
           <div class="layer">
+
             <h3>NEW YORK</h3>
+
           </div>
+
         </div>
+
         <div class="campus-col">
+
           <img src="pics/washington.jpg" />
+
           <div class="layer">
+
             <h3>WASHINGTON</h3>
+
           </div>
+
         </div>
+
       </div>
-    </section>
-    <!------facilities------->
-    <section class="facilities">
-      <h1>Our Facilities</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-      <div class="row">
-        <div class="facilities-col">
-          <img src="pics/liberary.jpg" />
-          <h3>World Class Libery</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt "Lorem ipsum dolor sit amet
-          </p>
-        </div>
-        <div class="facilities-col">
-          <img src="pics/basketbal.jpg" />
-          <h3>Largest Play Ground</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt "Lorem ipsum dolor sit amet
-          </p>
-        </div>
-        <div class="facilities-col">
-          <img src="pics/cafeteria.jpg" />
-          <h3>Tasty and Healthy Food</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt "Lorem ipsum dolor sit amet
-          </p>
-        </div>
-      </div>
+
     </section>
 
-    <!------ testimonials ---->
-    <section class="testimonials">
-      <h1>What Our Student Says</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+    <!------facilities------->
+
+    <section class="facilities">
+
+      <h1>Our Facilities</h1>
+
+      <p>These are the facilities we have to help facilitate learning </p>
+
       <div class="row">
-        <div class="testimonal-col">
-          <img src="pics/test2.jpg" />
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt "Lorem ipsum dolor sit ametLorem ipsum
-              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt "Lorem ipsum dolor sit amet
-            </p>
-            <h3>Simon Onyinye</h3>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-          </div>
+
+        <div class="facilities-col">
+
+          <img src="pics/liberary.jpg" />
+
+          <h3>World Class Library</h3>
+
+
+
         </div>
-        <div class="testimonal-col">
-          <img src="pics/test1.jpg" />
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt "Lorem ipsum dolor sit ametLorem ipsum
-              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt "Lorem ipsum dolor sit amet
-            </p>
-            <h3>Simon Michael</h3>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-half-o"></i>
-          </div>
+
+        <div class="facilities-col">
+
+          <img src="pics/basketbal.jpg" />
+
+          <h3>Large Play Ground</h3>
+
+          <p>
+
+            We have play ground with different game fields which helps our students to exercise their brains and also improve their health 
+
+          </p>
+
         </div>
+
+        <div class="facilities-col">
+
+          <img src="pics/cafeteria.jpg" />
+
+          <h3>Restaurants</h3>
+
+          <p>
+
+            Food is very important in our growth and health that's why we have restaurants in our school,so that our students can't be stressing on food. We also have good and tasty recipes.
+
+          </p>
+
+        </div>
+
       </div>
+
     </section>
+
+
+
+    <!------ testimonials ---->
+
+    <section class="testimonials">
+
+      <h1>What Our Student Says</h1>
+
+      <p>This is what our students is saying</p>
+
+      <div class="row">
+
+        <div class="testimonal-col">
+
+          <img src="pics/test2.jpg" />
+
+          <div>
+
+            <p>
+
+              This institution has a high professional teachers that will make sure you understand what is being taught 
+
+            </p>
+
+            <h3>Simon Onyinye</h3>
+
+            <i class="fa fa-star"></i>
+
+            <i class="fa fa-star"></i>
+
+            <i class="fa fa-star"></i>
+
+            <i class="fa fa-star"></i>
+
+            <i class="fa fa-star-o"></i>
+
+          </div>
+
+        </div>
+
+        <div class="testimonal-col">
+
+          <img src="pics/test1.jpg" />
+
+          <div>
+
+            <p>
+
+              Very Good at teaching resources and and conducive environment.
+
+              Highly recommended. You will get the best
+
+            </p>
+
+            <h3>Simon Michael</h3>
+
+            <i class="fa fa-star"></i>
+
+            <i class="fa fa-star"></i>
+
+            <i class="fa fa-star"></i>
+
+            <i class="fa fa-star"></i>
+
+            <i class="fa fa-star-half-o"></i>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
 
     <!---- call to action---->
 
+
+
     <section class="cta">
+
       <h1>
+
         Enroll For Our Various Online Courses<br />
+
         Anywhere From The World
+
       </h1>
+
       <a href="contact.html" class="hero-btn">CONTACT US </a>
+
     </section>
+
+
 
     <!-----footer ----->
+
     <section class="foot">
+
       <footer class="footer">
+
         <div class="container">
+
           <div class="row">
+
             <div class="footer-col">
+
               <h4>Info</h4>
+
               <ul>
+
                 <li><a href="about.html">about us</a></li>
+
                 <li><a href="course.html">our Blog</a></li>
+
               </ul>
+
             </div>
+
             <div class="footer-col">
+
               <h4>get help</h4>
+
               <ul>
+
                 <li><a href="contact.html">Our Contact</a></li>
+
                 <li><a href="about.html">Our Services</a></li>
+
               </ul>
+
             </div>
+
             <div class="footer-col">
+
               <h4>Courses</h4>
+
               <ul>
+
                 <li><a href="course.html">Our Courses</a></li>
+
               </ul>
+
             </div>
+
             <div class="footer-col">
+
               <h4>follow us</h4>
+
               <div class="social-links">
+
                 <a
+
                   href="https://www.linkedin.com/in/simon-michael-561160241/"
+
                   target="_blank"
+
                   ><i class="fab fa-linkedin"></i
+
                 ></a>
+
                 <a href="http://twitter.com/SimonMichael_O" target="_blank"
+
                   ><i class="fab fa-twitter"></i
+
                 ></a>
+
                 <a
+
                   href="https://www.instagram.com/simonmichael_o/"
+
                   target="_blank"
+
                   ><i class="fab fa-instagram"></i
+
                 ></a>
+
                 <a href="https://wa.me/2349033328061" target="_blank"
+
                   ><i class="fab fa-whatsapp"></i
+
                 ></a>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </footer>
+
     </section>
 
+
+
     <!-----javascript for toggle menue ---->
+
     <script>
+
       var navLinks = document.getElementById("navLinks");
+
       function showMenue() {
+
         navLinks.style.right = "0";
+
       }
 
+
+
       function hideMenue() {
+
         navLinks.style.right = "-200px";
+
       }
+
     </script>
+
   </body>
+
 </html>
+
+            
